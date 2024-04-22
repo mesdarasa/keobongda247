@@ -1,0 +1,28 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="translate">job_attribute_title</custom-field>
+        <custom-field action="translate">attribute_title</custom-field>
+        <custom-field action="translate">attribute_value</custom-field>
+    </custom-fields>
+    <admin-texts>
+        <key name="banca_opt">
+            <key name="error_heading"/>
+            <key name="error_subtitle"/>
+            <key name="error_home_btn_label"/>
+            <key name="blog_title"/>
+            <key name="blog_continue_read"/>
+            <key name="share_title"/>
+            <key name="related_posts_title"/>
+            <key name="logo_title"/>
+            <key name="preloader_title"/>
+            <key name="top_header_schedule"/>
+            <key name="top_header_contact_no"/>
+            <key name="top_header_email"/>
+            <key name="menu_btn_label"/>
+            <key name="job_mailchimp_title"/>
+            <key name="job_mailchimp_subtitle"/>
+            <key name="job_mailchimp_email_placeholder"/>
+            <key name="job_mailchimp_submit_btn"/>
+        </key>
+    </admin-texts>
+</wpml-config>

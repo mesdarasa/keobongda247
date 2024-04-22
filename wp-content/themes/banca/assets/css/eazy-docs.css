@@ -1,0 +1,260 @@
+/*Pre-defined*/
+body.single-docs {
+    background-color: var(--bs-white);
+}
+
+body.single-docs .body_wrapper {
+    overflow: visible !important;
+}
+
+.single-docs a {
+    color: var(--primary-color);
+}
+
+
+.eazydocs_shortcode ul.article_list {
+    padding: 0;
+}
+
+.eazydocs_shortcode ul.article_list li {
+    list-style: none;
+}
+
+/*============= Documentation Single ===================*/
+.ezd_search_banner {
+    padding: 240px 0 100px;
+}
+
+body.single-docs .elementor-column-gap-default > .elementor-column > .elementor-element-populated {
+    padding: 10px;
+}
+
+.elementor-page .shortcode_title {
+    padding-left: 10px;
+}
+
+.shortcode_info p {
+    margin-bottom: 30px;
+}
+
+.steps-panel {
+    box-shadow: 0 3px 6px 0 rgb(4 73 89 / 2%);
+    border: 1px solid #ebebeb;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    padding-right: 10px;
+}
+
+.ordered-list {
+    position: relative;
+    list-style: none;
+    padding-left: 20px;
+    margin: 30px 0;
+}
+
+.ordered-list::before {
+    content: "";
+    position: absolute;
+    left: 32px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: #c4cdd5;
+}
+
+.ordered-list li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 16px 0;
+    position: relative;
+    padding-left: 35px;
+    counter-increment: a;
+}
+
+.ordered-list li::before {
+    content: counter(a);
+    position: absolute;
+    color: #fff;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: var(--primary-color);
+    text-align: center;
+    line-height: 23px;
+    top: -4px;
+    left: -4px;
+    border: 5px solid var(--bs-white);
+}
+
+.documentation_item .media-body .title:hover {
+    text-decoration: none;
+}
+
+.shortcode_info ol li {
+    margin-bottom: 10px;
+    list-style-type: decimal;
+}
+
+.shortcode_info .steps-panel ol.ordered-list li {
+    list-style: none;
+}
+
+#eazydocs-toc .nav-link.active {
+    color: var(--primary-color)
+}
+
+#eazydocs-toc .nav-link.active::before {
+    left: -20px;
+    height: 100%;
+    content: " ";
+    position: absolute;
+    border-left: 2px solid;
+    color: var(--primary-color);
+}
+
+.eazydocx-credit-text p {
+    margin-top: revert;
+}
+
+.eazydocs-footer {
+    padding-bottom: 20px;
+}
+
+.doc_rightsidebar .pageSideSection .print i {
+    color: #425466;
+}
+
+.documentation_item .icon img {
+    max-width: 36px;
+}
+
+
+/*================= Model Popup ==================*/
+.img_modal {
+    background: var(--bs-white);
+    padding-right: 0 !important;
+    box-shadow: 0 4px 14px 0 rgb(4 73 89 / 8%);
+}
+
+.img_modal .close {
+    font-size: 30px;
+    opacity: 1;
+    color: #6b707f;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 0;
+    z-index: 3;
+}
+
+.modal-backdrop.fade {
+    opacity: 0;
+    z-index: 0;
+}
+
+.modal-backdrop {
+    background-color: var(--bs-white);
+    height: auto;
+}
+
+#eazydocs_feedback .close:hover,
+#eazydocs_feedback .action_btn {
+    background-color: var(--primary-color);
+}
+
+/*======================== Responsive Device ==================*/
+@media (max-width: 1440px) {
+    .documentation_item .icon {
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .documentation_item {
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .ezd_search_banner {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+
+    .doc_documentation_area .doc_mobile_menu.left-column,
+    .doc_documentation_area .doc_documentation_full_area .doc_mobile_menu {
+        max-width: 290px;
+    }
+
+    .doc-middle-content {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .doc_documentation_area .doc_mobile_menu.left-column {
+        top: 40px
+    }
+
+    .eazydocs-comments-wrap {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    footer.help_text .feedback_link {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 650px) {
+    .help_form .modal-content {
+        max-height: 640px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    h1, h2, h3, h4, h5, h6 {
+        line-height: 1.4;
+    }
+
+    .doc_documentation_area {
+        padding-bottom: 70px;
+    }
+}
+
+@media (max-width: 550px) {
+    .ezd_search_banner {
+        padding-top: 140px;
+        padding-bottom: 60px;
+    }
+
+    .help_form {
+        height: auto;
+    }
+
+    .help_form .modal-content {
+        max-height: 500px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .doc_documentation_area .doc_right_mobile_menu,
+    .doc_documentation_area .doc_mobile_menu.left-column {
+        top: 130px;
+    }
+
+    .doc-middle-content {
+        padding-right: 15px;
+        padding-top: 80px
+    }
+
+    .doc_documentation_area .shortcode_title h1 {
+        font-size: 30px;
+    }
+}

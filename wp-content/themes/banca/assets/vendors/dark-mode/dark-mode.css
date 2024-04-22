@@ -1,0 +1,252 @@
+/*----------------------------------------------------*/
+body.body_dark {
+
+    --secondary-color: #ffffff !important;
+    --body-color: #f1f1f1 !important;
+    --primary-color: #3185ec !important;
+
+    --black_900: #f1f1f1 !important;
+    --black_800: #e9e9e9 !important;
+    --black_700: #e1e1e1 !important;
+    --black_600: #bebebe !important;
+    --black_500: #b9b9b9 !important;
+    --black_400: #a2a2a2 !important;
+    --black_150: rgba(255,255,255,0.3) !important;
+    --black_50: #494949 !important;
+    --black_25: #383838 !important;
+
+    --border_on_white: #2c303a !important;
+    --border_on_gray: #6a737c !important;
+
+    --border-on-highlight: #393e4b !important;
+    --font-color-gray: #f1f1f1 !important;
+
+    --bg-color-gray: #e2e6e763 !important;
+    --sec-bg-color: #131417 !important;
+
+    --bs-white: #2c303a !important;
+
+    /*EazyDocs Plugin Colors*/
+    --p_color: #f1f1f1 !important;
+    --ezd_brand_color: var(--primary-color) !important;
+    --black_300: #9fa6ad !important;
+}
+
+
+/*============= CSS ===============*/
+body.body_dark,
+body.body_dark .body_wrapper{
+    background: #131417 !important;
+}
+
+body.body_dark .nice-select, .body_dark .nice-select .list {
+    background-color: var(--bs-white) !important;
+}
+
+body.body_dark .nice-select .option.focus,
+body.body_dark .nice-select .option.selected.focus,
+body.body_dark .nice-select .option:hover {
+    background-color: #6a737c !important;
+}
+
+body.body_dark .about-tab-area .nav-tabs .nav-item .nav-link.active {
+    color: #ffffff !important;
+}
+
+body.body_dark .elementor-counter-number-wrapper,
+body.body_dark h1 a,
+body.body_dark h2 a,
+body.body_dark h3 a,
+body.body_dark h4 a,
+body.body_dark h5 a,
+body.body_dark h6 a,
+body.body_dark h1,
+body.body_dark h2,
+body.body_dark h3,
+body.body_dark h4,
+body.body_dark h5,
+body.body_dark h6 {
+    color: #f1f1f1 !important;
+}
+
+body.body_dark .multistep_form_loan .elementor-form .elementor-form-fields-wrapper .elementor-select-wrapper select {
+    background-color: var(--bs-white) !important;
+}
+
+body.body_dark .loan-slider .single-slide,
+body.body_dark #preloader .round_spinner,
+body.body_dark .testimonial-slider-2 .slick-arrow {
+    background: #2c303a !important;
+}
+
+
+body.body_dark .select2-selection .select2-selection__rendered,
+body.body_dark p,
+body.body_dark p span,
+body.body_dark .elementor-counter-title,
+body.body_dark .multistep_form_loan .elementor-form .elementor-form-fields-wrapper .elementor-column label,
+body.body_dark .multistep_form_loan .elementor-form .elementor-form-fields-wrapper .elementor-field-type-radio label,
+body.body_dark .form-control:focus {
+    color: var(--black_100) !important;
+}
+
+body.body_dark .forminator-calculation {
+    -webkit-text-fill-color: var(--black_100) !important;
+}
+
+body.body_dark ul li,
+body.body_dark ul li a,
+body.body_dark ul li span {
+    color: var(--black_800)!important;
+}
+
+body.body_dark .multistep_form_loan .elementor-form .elementor-form-fields-wrapper .elementor-select-wrapper select,
+body.body_dark .multistep_form_loan .elementor-form .elementor-form-fields-wrapper .elementor-field-type-date input,
+body.body_dark .multistep_form_loan .elementor-form .elementor-form-fields-wrapper .elementor-field-type-email input,
+body.body_dark .multistep_form_loan .elementor-form .elementor-form-fields-wrapper .elementor-field-type-tel input,
+body.body_dark .multistep_form_loan .elementor-form .elementor-form-fields-wrapper .elementor-field-type-upload input,
+body.body_dark .multistep_form_loan .elementor-form .elementor-form-fields-wrapper .elementor-field-type-text input {
+    border-color: var(--border_on_gray) !important;
+}
+
+body.body_dark .multistep_form_loan .e-form__indicators__indicator--state-inactive [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none) {
+    background-color: #2c303a !important;
+}
+
+body.body_dark .calculator-widget-2 .single-calculator-widget .single-range .noUi-horizontal {
+    background-color: #131417 !important;
+}
+
+body.body_dark .calculator-widget-2 .calculator-result-widget,
+body.body_dark .calculator-widget-2 .single-calculator-widget .single-range .input-group .input-group-text {
+    background-color: #2c303a !important;
+}
+
+body.body_dark .job-description-widget p strong,
+body.body_dark .job-description-widget .note-text p span {
+    color: #e1e1e1 !important;
+}
+
+body.body_dark .banner-area-5 .basic-loan-calculator form.forminator-ui .forminator-field .forminator-label {
+    color: #e1e1e1 !important;
+}
+
+body.body_dark .calculator-widget-2 .single-calculator-widget .single-range input[type=text] {
+    color: #a3aec2 !important;
+}
+
+body.body_dark .client-slider-2 .single-client .client-info p,
+body.body_dark .client-slider-2 .single-client .quote,
+body.body_dark .widget_search .search-form button {
+    color: #f2f2f2 !important;
+}
+
+.header-menu .menu > .nav-item.submenu .dropdown-menu .nav-item:hover > .nav-link,
+.header-menu .menu > .nav-item.submenu .dropdown-menu .nav-item:focus > .nav-link,
+.header-menu .menu > .nav-item.submenu .dropdown-menu .nav-item.active > .nav-link {
+    color: var(--primary-color) !important;
+}
+
+/*====================== Header Menu =========================*/
+body.body_dark .header-menu .menu > .nav-item.submenu .dropdown-menu .nav-item:hover {
+    background-color: rgba(208, 215, 222, 0.32) !important;
+}
+
+body.body_dark .header-menu.navbar_fixed .navbar .sticky_logo .sticky {
+    display: none !important;
+}
+
+body.body_dark .header-menu.navbar_fixed .navbar .sticky_logo .main {
+    display: block !important;
+}
+
+body.body_dark form input {
+    background-color: var(--bs-white) !important;
+    color: #ffffff !important;
+}
+
+body.body_dark .job-application-modal .modal-dialog .modal-content,
+body.body_dark .job-application-modal .modal-dialog .modal-content .modal-body .form-control {
+    background-color: var(--bs-white) !important;
+}
+
+body.body_dark .header-menu .menu > .nav-item > .nav-link {
+    color: var(--font-color-white) !important;
+}
+
+/*======================== Forminator Plugin =======================*/
+body.body_dark .banner-area-5 .basic-loan-calculator form.forminator-ui .forminator-field .forminator-input,
+body.body_dark .banner-area-5 .basic-loan-calculator form.forminator-ui .forminator-field .select2-selection--single {
+    color: #f1f1f1!important;
+}
+
+body.body_dark .banner-area-5 .basic-loan-calculator form.forminator-ui .forminator-field .forminator-input,
+body.body_dark .banner-area-5 .basic-loan-calculator form.forminator-ui .forminator-field .select2-selection--single {
+    background: #131417 !important;
+}
+
+body.body_dark .forminator-select-dropdown {
+    background: var(--bs-white) !important;
+}
+
+/*=============== EazyDocs Plugins CSS ===================*/
+body.body_dark .ezd_search_banner,
+body.body_dark .doc_left_sidebarlist:not(.one-page-docs-sidebar-wrap):before,
+body.body_dark .doc_left_sidebarlist::after,
+body.body_dark .fontsize-controllers .btn-group,
+body.body_dark .documentation_item .icon {
+    background: #2c303a !important;
+}
+
+body.body_dark .page_breadcrumb {
+    background: #1f3341 !important;
+}
+
+body.body_dark .page_breadcrumb .breadcrumb .active {
+    color: #ffffff !important;
+}
+
+body.body_dark .categories_guide_item {
+    background : var(--bs-white) !important;
+}
+body.body_dark .border_bottom {
+    background: var(--black_50) !important;
+}
+
+
+/**============ Dark Switcher Style ===========**/
+header .js-darkmode-btn {
+    position: relative;
+    background: #171d24;
+    color: gold;
+    border-radius: 50px;
+    padding: 0 5px;
+    margin-left: 15px;
+    height: 26px;
+}
+
+header .js-darkmode-btn label {
+    margin: 0;
+    cursor: pointer;
+}
+
+header .js-darkmode-btn ion-icon {
+    color: gold;
+    font-size: 14px;
+}
+
+header .js-darkmode-btn #ball {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    background-color: #fafafa;
+    border-radius: 50%;
+    left: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: default;
+}
+
+header .js-darkmode-btn input {
+    display: none;
+}
